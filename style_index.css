@@ -1,0 +1,92 @@
+html, body{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-color: #f0f0f0;
+   padding: 0;
+   margin: 0;
+}
+
+#menu {
+   position: fixed;
+   background-color: #f0f0f0;
+   width: 100%;
+   height: 100px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   gap: 40px;
+}
+
+#logo{
+   width: auto;
+   height: 100px;
+}
+
+#opciones_menu {
+   list-style: none;
+   display: flex;
+   gap: 30px;
+   margin: 0;
+   padding: 0;
+}
+
+.opcion {
+   text-decoration: none;
+   color: #5c5b5b;
+   font-weight: 600;
+}
+
+#contenedor_principal{
+   margin: 0 auto;
+   padding: 40px;
+   text-align: center;
+   Display:flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+}
+
+.tarjetas{
+   padding: 100px 500px;
+   text-align: center;
+   justify-content: center;
+   border-radius: 5px;
+}
+
+.images{
+   width: 500px;
+   height: 300px;
+}
+
+.titulos-articulos{
+   cursor: pointer;
+}
+
+#pie_pagina
+{
+   width: 100%;
+   background-color: #f0f0f0; 
+   border-top: 1px solid #ccc;  
+   padding: 20px 0;
+   font-size: 14px;
+   color: #333;
+}
+
+#titulo_footer
+{
+   text-align: center;
+}
+
+#desarrolladores 
+{
+   display: flex;
+   justify-content: center;
+   gap: 70px;
+   list-style: none;
+   margin: 30px 0 0 0;
+   font-style: italic;
+}
+
+
+
+
