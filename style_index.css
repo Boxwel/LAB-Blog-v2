@@ -1,13 +1,14 @@
 html, body{
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-family: 'Poppins', sans-serif;
    background-color: #f0f0f0;
    padding: 0;
    margin: 0;
 }
 
+
 #menu {
    position: fixed;
-   background-color: #f0f0f0;
+   background-color: #f6f6f6;
    width: 100%;
    height: 100px;
    display: flex;
@@ -46,6 +47,12 @@ html, body{
    text-align: center;
 }
 
+
+.boton{
+   font-weight: bold;
+}
+
+
 .tarjetas{
    padding: 100px 500px;
    text-align: center;
@@ -62,14 +69,16 @@ html, body{
    cursor: pointer;
 }
 
+
 #pie_pagina
 {
-   width: 100%;
-   background-color: #f0f0f0; 
-   border-top: 1px solid #ccc;  
+   margin: 0;
    padding: 20px 0;
-   font-size: 14px;
-   color: #333;
+   border: none;
+   box-shadow: none;
+   text-align: center;
+   width: 100%;
+   background-color: #f6f6f6;
 }
 
 #titulo_footer
@@ -80,13 +89,20 @@ html, body{
 #desarrolladores 
 {
    display: flex;
-   justify-content: center;
    gap: 70px;
    list-style: none;
    margin: 30px 0 0 0;
    font-style: italic;
 }
 
+.iconos
+{
+    font-size: 2rem;
+    color: #333;
+    transition: color 0.3s;
+}
 
-
-
+.iconos:hover 
+{
+    color: #000;
+}
